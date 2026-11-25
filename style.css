@@ -1,0 +1,353 @@
+body {
+	background-color: #05152c;
+	
+}
+.introduccion {
+      background-color: #0c0d27;
+      letter-spacing: 2px;
+      border-radius: 1px;
+      border: 0px;
+
+
+}
+p {
+    color: white;
+}
+h1 {
+	font-family: "Monospace", Monospace, sans-serif;
+	color: #FFFFFF;
+	background-color: #05152c;
+	letter-spacing: 8px;
+    font-weight: 1%; 
+	border-radius: 20px;
+    border: 1px solid #d1dae4;
+    text-align: center;
+}
+
+.cabeza {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: #162447;
+}
+.textocabeza {
+    width: 70%;
+    color: wheat;
+    line-height: 2;
+   
+}
+.imagencabeza {
+    width: 40%;
+    text-align: center;
+}
+.imagencabeza img {
+    width: 500px;
+}
+
+
+.juego1 {
+   align-items: center;
+   padding: 30px;
+   background: linear-gradient(to bottom, #4f52bf, #db7a96, #d48429);
+   border: 3px solid rgb(229, 154, 248);
+  
+
+}
+.juego1 h2 {
+    font-family: "Monospace", Monospace, sans-serif;
+    border: 2px solid black;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    
+}
+.ordenjuego1 {
+    display: flex;
+    
+}
+.ordenjuego1 img {
+    width: 30%;
+    height: 20%;
+    margin-right: 25px;
+    border-radius: 20px;
+
+
+}
+.descripcionjuego1 p {
+    font-size: 17px;
+    color: white;
+    margin-left: 100px;
+    margin-right: 140px;
+    line-height: 2;
+    font-size: 20px;
+}
+button {
+    background-color: rgb(224, 54, 54);
+    padding: 20px;
+    width: 500px;
+    margin-left: 180px;
+    color: white;
+    border-radius: 40px;
+    border: 2px solid rgb(145, 25, 25);
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(177, 52, 52);
+    padding: 20px;
+    width: 500px;
+    margin-left: 180px;
+    color: rgb(204, 202, 202);
+    border-radius: 40px;
+    border: 2px solid rgb(82, 16, 16)
+    
+}
+
+.juego2 {
+   align-items: center;
+   padding: 30px;
+   background: linear-gradient(to bottom, #0bbb63, #18326b, #02121f);
+  border: 3px solid rgb(220, 222, 255);
+
+}
+.juego2 h2 {
+    font-family: "Monospace", Monospace, sans-serif;
+    border: 2px solid black;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+} 
+.ordenjuego2 {
+    display: flex;
+    
+}
+.ordenjuego2 img {
+    width: 30%;
+    height: 20%;
+    margin-right: 25px;
+    border-radius: 20px;
+
+
+}
+.descripcionjuego2 p {
+    font-size: 17px;
+    color: white;
+    margin-left: 100px;
+    margin-right: 140px;
+    line-height: 2;
+    font-size: 20px;
+}
+
+
+.juego3 {
+   align-items: center;
+   padding: 30px;
+   background: linear-gradient(to bottom, #000000, #20201e, #1b1101);
+  border: 3px solid rgb(255, 243, 134);
+
+}
+.juego3 h2 {
+    font-family: "Monospace", Monospace, sans-serif;
+    border: 2px solid rgb(255, 250, 205);
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(251, 253, 219);
+} 
+.ordenjuego3 {
+    display: flex;
+    
+}
+.ordenjuego3 img {
+    width: 30%;
+    height: 20%;
+    margin-right: 25px;
+    border-radius: 20px;
+
+
+}
+.descripcionjuego3 p {
+    font-size: 17px;
+    color: white;
+    margin-left: 100px;
+    margin-right: 140px;
+    line-height: 2;
+    font-size: 20px;
+}
+
+
+.juego4 {
+   align-items: center;
+   padding: 30px;
+   background: linear-gradient(to bottom, #a1a5b1, #cbdcff, #3b4653);
+  border: 3px solid rgb(141, 143, 185);
+
+}
+.juego4 h2 {
+    font-family: "Monospace", Monospace, sans-serif;
+    border: 2px solid rgb(39, 58, 92);
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(175, 28, 28);
+} 
+.ordenjuego4 {
+    display: flex;
+    
+}
+.ordenjuego4 img {
+    width: 30%;
+    height: 20%;
+    margin-right: 25px;
+    border-radius: 20px;
+
+
+}
+.descripcionjuego4 p {
+    font-size: 17px;
+    color: rgb(53, 42, 42);
+    margin-left: 100px;
+    margin-right: 140px;
+    line-height: 2;
+    font-size: 20px;
+}
+
+.juego5 {
+   align-items: center;
+   padding: 30px;
+   background: linear-gradient(to bottom, #581313, #d11a0d, #92180f);
+  border: 3px solid rgb(231, 79, 79);
+
+}
+.juego5 h2 {
+    font-family: "Monospace", Monospace, sans-serif;
+    border: 2px solid rgb(65, 1, 1);
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(255, 205, 205);
+} 
+.ordenjuego5 {
+    display: flex;
+    
+}
+.ordenjuego5 img {
+    width: 30%;
+    height: 20%;
+    margin-right: 25px;
+    border-radius: 20px;
+
+
+}
+.descripcionjuego5 p {
+    font-size: 17px;
+    color: rgb(255, 207, 207);
+    margin-left: 100px;
+    margin-right: 140px;
+    line-height: 2;
+    font-size: 20px;
+}
+
+.juego6 {
+   align-items: center;
+   padding: 30px;
+   background: linear-gradient(to bottom, #f0d850, #ffe030, #91880f);
+  border: 3px solid rgb(243, 242, 162);
+
+}
+.juego6 h2 {
+    font-family: "Monospace", Monospace, sans-serif;
+    border: 2px solid rgb(114, 89, 20);
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(75, 53, 7);
+} 
+.ordenjuego6 {
+    display: flex;
+    
+}
+.ordenjuego6 img {
+    width: 30%;
+    height: 20%;
+    margin-right: 25px;
+    border-radius: 20px;
+
+
+}
+.descripcionjuego6 p {
+    font-size: 17px;
+    color: rgb(44, 31, 4);
+    margin-left: 100px;
+    margin-right: 140px;
+    line-height: 2;
+    font-size: 20px;
+}
+
+.juego7 {
+   align-items: center;
+   padding: 30px;
+   background: linear-gradient(to bottom, #b7dcf5, #daeff7, #7fbec0);
+  border: 3px solid rgb(188, 216, 253);
+
+}
+.juego7 h2 {
+    font-family: "Monospace", Monospace, sans-serif;
+    border: 2px solid rgb(36, 107, 136);
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    color: rgb(33, 59, 131);
+} 
+.ordenjuego7 {
+    display: flex;
+    
+}
+.ordenjuego7 img {
+    width: 30%;
+    height: 20%;
+    margin-right: 25px;
+    border-radius: 20px;
+
+
+}
+.descripcionjuego7 p {
+    font-size: 17px;
+    color: rgb(3, 26, 70);
+    margin-left: 100px;
+    margin-right: 140px;
+    line-height: 2;
+    font-size: 20px;
+}
+.final {
+    background-color: rgb(75, 52, 180);
+    height: 70%;
+    padding-bottom: 100px;
+    padding-top: 20px;
+}
+.parrafofinal {
+    text-align: left;
+    margin: 40px;
+    font-size: 30px;
+    
+}
+.final h2 {
+    background-color: #7845d6;
+    color: #150c33;
+    padding: 20px;
+}
+.parrafofinal p {
+    color: #e3befc;
+}
+.conocermas {
+    background-color: #1403ff;
+    border-radius: 0px;
+    border: 3px solid rgb(8, 4, 46);
+}
+.conocermas:hover {
+    background-color: #253a97;
+    border-radius: 0px;
+    border: 3px solid rgb(14, 25, 87);
+}
+    
